@@ -65,3 +65,29 @@ imap kj <Esc>
 
 "viminfo file location"
 set viminfo+=n~/.vim/viminfo
+
+"Tabs for python
+set tabstop=4 
+set shiftwidth=4
+set smarttab
+set expandtab "Replace tab with spaces
+set softtabstop=4 "4 spaces in tab
+
+set autoindent 
+
+"syntax highlit for python"
+let python_highlight_all = 1
+
+"Turn on all colors
+set t_Co=256
+
+"To display longer lines"
+set wrap
+set linebreak
+
+"Turn off backups of files"
+set nobackup
+set noswapfile
+
+"Ruler"
+set ruler
