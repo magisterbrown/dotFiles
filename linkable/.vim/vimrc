@@ -94,5 +94,11 @@ set ruler
 
 "Plugins"
 call plug#begin('~/.vim/plugged')
+    Plug 'maxboisvert/vim-simple-complete'
     Plug 'preservim/nerdtree'
+    Plug 'tpope/vim-surround'
 call plug#end()
+
+"Nerd tree shortcuts"
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>

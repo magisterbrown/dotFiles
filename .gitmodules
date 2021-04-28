@@ -1,3 +1,9 @@
 [submodule "linkable/.vim/plugged/nerdtree"]
 	path = linkable/.vim/plugged/nerdtree
 	url = https://github.com/preservim/nerdtree
+[submodule "linkable/.vim/plugged/vim-simple-complete"]
+	path = linkable/.vim/plugged/vim-simple-complete
+	url = https://github.com/maxboisvert/vim-simple-complete
+[submodule "linkable/.vim/plugged/vim-surround"]
+	path = linkable/.vim/plugged/vim-surround
+	url = https://github.com/tpope/vim-surround
