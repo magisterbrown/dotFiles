@@ -91,3 +91,8 @@ set noswapfile
 
 "Ruler"
 set ruler
+
+"Plugins"
+call plug#begin('~/.vim/plugged')
+
+call plug#end()

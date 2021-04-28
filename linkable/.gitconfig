@@ -3,3 +3,5 @@
 	name = Artur
 [core]
 	editor = vim
+[credential]
+	helper = manager
