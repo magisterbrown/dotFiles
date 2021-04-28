@@ -1,1 +1,0 @@
-/home/plozovatel/dotFiles/linkable/.vimrc
