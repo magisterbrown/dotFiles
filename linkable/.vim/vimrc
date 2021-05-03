@@ -1,9 +1,9 @@
-" Comments in Vimscript start with a `"`.
-"Test text"
+" comments in vimscript start with a `"`.
+"test text"
 
-" If you open this file in Vim, it'll be syntax highlighted for you.
+" if you open this file in vim, it'll be syntax highlighted for you.
 
-"Legacy some vi compatability"
+"legacy some vi compatability"
 set nocompatible
 
 " Turn on syntax highlighting.
@@ -55,6 +55,9 @@ nnoremap <Down>  :echoe "Use j"<CR>
 inoremap <Left>  <ESC>:echoe "Use h"<CR>
 inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
+
+"Copy to clip-board"
+noremap <C-y> "+y
 
 
 inoremap <Down>  <ESC>:echoe "Use j"<CR>

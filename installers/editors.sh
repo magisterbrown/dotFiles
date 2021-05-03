@@ -1,2 +1,2 @@
-apt get install vim-gnome
-apt get isntall tmux
+sudo apt install vim-gtk3
+sudo apt install tmux

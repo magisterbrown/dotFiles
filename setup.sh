@@ -10,7 +10,7 @@ do
     case $arg in
         -e)
             echo "Editors"
-            ./installers/editors.sh 
+            sudo ./installers/editors.sh 
             ;;
     esac
 done

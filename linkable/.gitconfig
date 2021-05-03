@@ -1,7 +1,3 @@
 [user]
 	email = magisterbrownie@gmail.com
 	name = Artur
-[core]
-	editor = vim
-[credential]
-	helper = cache
