@@ -4,3 +4,13 @@ echo "Link files:"
 ./link-files.sh
 echo "Set global variables"
 source ./set-variables.sh
+echo "Install:"
+for arg in "$@"
+do
+    case $arg in
+        -e)
+            echo "Editors"
+            ./installers/editors.sh 
+            ;;
+    esac
+done
