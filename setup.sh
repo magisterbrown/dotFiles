@@ -3,7 +3,7 @@ echo "Backup files:"
 echo "Link files:"
 ./link-files.sh
 echo "Set global variables"
-source ./set-variables.sh
+#source ./set-variables.sh
 echo "Install:"
 for arg in "$@"
 do
@@ -12,5 +12,8 @@ do
             echo "Editors"
             sudo ./installers/editors.sh 
             ;;
+        -p)
+            echo "Pyhon"
+            sudo ./installers/python.sh
     esac
 done
