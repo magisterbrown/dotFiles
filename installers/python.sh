@@ -1,1 +1,1 @@
-pip3 install pyscaffold
+pip3 install virtualenv
