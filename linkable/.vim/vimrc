@@ -100,8 +100,13 @@ call plug#begin('~/.vim/plugged')
     Plug 'maxboisvert/vim-simple-complete'
     Plug 'preservim/nerdtree'
     Plug 'tpope/vim-surround'
+    Plug 'easymotion/vim-easymotion'
 call plug#end()
 
 "Nerd tree shortcuts"
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
+
+"Easy motion bindings"
+map <Space>f <Plug>(easymotion-f)
+map <Space>F <Plug>(easymotion-F)
