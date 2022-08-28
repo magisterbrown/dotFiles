@@ -24,6 +24,8 @@ set laststatus=2
 "Normal back space behaviour"
 set backspace=indent,eol,start
 
+"Auto reloadd"
+set autoread
 
 "Allow existance of hidden usaved tabs more info `:help hidden`"
 set hidden
@@ -110,3 +112,7 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 "Easy motion bindings"
 map <Space>f <Plug>(easymotion-f)
 map <Space>F <Plug>(easymotion-F)
+
+"Tag file serach"
+set tags=tags;/
+set cpt-=t
